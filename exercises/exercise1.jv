@@ -46,7 +46,7 @@ pipeline AirportsDataPipeline{
 
         // 9. Properties are assigned to concrete values.
         // Here, we specify the URL where the file shall be downloaded from.
-        url: "https://opendata.rhein-kreis-neuss.de/api/explore/v2.1/catalog/datasets/rhein-kreis-neuss-flughafen-weltweit/exports/csv?lang=en&timezone=Europe%2FBerlin&use_labels=true&delimiter=%3B"";
+        url: "https://opendata.rhein-kreis-neuss.de/api/explore/v2.1/catalog/datasets/rhein-kreis-neuss-flughafen-weltweit/exports/csv?lang=en&timezone=Europe%2FBerlin&use_labels=true&delimiter=%3B";
     }
 
     // 10. The HttpExtractor requires no input and produces a binary file as output.
