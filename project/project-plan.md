@@ -37,6 +37,6 @@ Solar Footprints in CaliforniaThis GIS dataset consists of polygons that represe
 This dataset shows the Battery Electric Vehicles (BEVs) and Plug-in Hybrid Electric Vehicles (PHEVs) that are currently registered through Washington State Department of Licensing (DOL).
 
 ## Work Packages
-
 <!-- List of work packages ordered sequentially, each pointing to an issue with more details. -->
+
 
