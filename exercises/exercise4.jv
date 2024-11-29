@@ -82,23 +82,26 @@ pipeline temperaturePipeline {
         ];
     }
 
-    transform CtoF {
-        from Celsius oftype decimal;
-        to Fahrenheit oftype decimal;
-        Fahrenheit: (Celsius * 9/5) + 32;
-    }
 
-    block tempToFahrenheit oftype TableTransformer {
-        inputColumns: ['temperature'];
-        outputColumn: 'temperature';
-        use: CtoF;
-    }
+ transform CelsiusToFahrenheit {
+   from Celsius oftype decimal;
+   to Fahrenheit oftype decimal;
 
-    block batteryTempToFahrenheit oftype TableTransformer {
+   Fahrenheit: (Celsius * 9/5) + 32;
+ }
+
+ block tempToFahrenheit oftype TableTransformer {
+   inputColumns: ['temperature'];
+   outputColumn: 'temperature';
+   uses: CelsiusToFahrenheit;
+ }
+ 
+ block batteryTempToFahrenheit oftype TableTransformer {
         inputColumns: ['battery_temperature'];
         outputColumn: 'battery_temperature';
-        use: CtoF;
+        uses: CelsiusToFahrenheit;
     }
+
 
     block tempLoader oftype SQLiteLoader {
         table:'temperatures';
