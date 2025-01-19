@@ -1,6 +1,5 @@
-# Title
 
-A Comparative Analysis of Solar Energy Infrastructure and Electric Vehicle Adoption Patterns
+# A Comparative Analysis of Solar Energy Infrastructure and Electric Vehicle Adoption Patterns
 
 # Description
 
@@ -28,7 +27,7 @@ Data URL : https://data.wa.gov/api/views/f6w7-q2d2/rows.csv?accessType=DOWNLOAD
 
 Data Type : CSV
 
-# Overview
+# Overview   [![CI/CD](https://github.com/prathameshagare02/made-template-WS2425/actions/workflows/data%20pipeline.yml/badge.svg)](https://github.com/prathameshagare02/made-template-WS2425/actions/workflows/data%20pipeline.yml)
 
 ## Project Features
 
@@ -40,10 +39,10 @@ Data Type : CSV
 
 4.  Dataset Downloading: It can download datasets from external sources for analysis and integration into the project.
 
-## Technologies used
+## Technologies used       [![Jayvee 0.6.4](https://img.shields.io/badge/Jayvee-0.6.4-yellowgreen.svg)](https://jvalue.github.io/jayvee/docs/dev/intro) [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](https://www.python.org/downloads/release/python-3128/)
 
 Python, Sqlite
 
-# License
+# License      [![License: CC0 1.0 Universal](https://img.shields.io/badge/License-CC0_1.0_Universal-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/legalcode)
 
 This project is open-source and released under the MIT License. Contributors are encouraged to adhere to ethical considerations and data privacy regulations when working with the datasets.
