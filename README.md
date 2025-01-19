@@ -46,6 +46,8 @@ Python, Sqlite
 
 # License
 
+This project is open-source and released under the MIT License. Contributors are encouraged to adhere to ethical considerations and data privacy regulations when working with the datasets.
+
 
 This template project provides some structure for your open data project in the MADE module at FAU.
 This repository contains (a) a data science project that is developed by the student over the course of the semester, and (b) the exercises that are submitted over the course of the semester.
